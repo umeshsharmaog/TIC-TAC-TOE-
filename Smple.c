@@ -5,7 +5,6 @@ char arr[10] = {'o', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 void showBoard();
 int checkForWin();
 
-// Driver Function
 int main()
 {
     int player = 1;
@@ -64,7 +63,6 @@ int main()
     return 0;
 }
 
-// Function to print the Tic Tac Toe board
 void showBoard()
 {
     printf("\tTIC TAC TOE\n");
@@ -80,7 +78,6 @@ void showBoard()
     printf("   %c    |   %C    |   %c   \n", arr[1], arr[2], arr[3]);
     printf("       |        |       \n");
 }
-// A function to check if the has won or not.
 int checkForWin()
 {
     // Win Cases
