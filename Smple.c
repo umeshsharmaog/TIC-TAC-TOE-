@@ -71,11 +71,11 @@ void showBoard()
     printf("   %c    |   %C    |   %c   \n", arr[1], arr[2], arr[3]);
     printf("-------|--------|-------\n");
     printf("       |        |       \n");
-    printf("   %c    |   %C    |   %c   \n", arr[1], arr[2], arr[3]);
+    printf("   %c    |   %C    |   %c   \n", arr[4], arr[5], arr[6]);
     printf("       |        |       \n");
     printf("-------|--------|-------\n");
     printf("       |        |       \n");
-    printf("   %c    |   %C    |   %c   \n", arr[1], arr[2], arr[3]);
+    printf("   %c    |   %C    |   %c   \n", arr[7], arr[8], arr[9]);
     printf("       |        |       \n");
 }
 int checkForWin()
